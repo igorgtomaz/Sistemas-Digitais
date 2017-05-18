@@ -59,8 +59,8 @@ int main()
     {
       maiorMenor(xa, ya, xb, yb, xc, yc, x, y, &maiorX, &maiorY);
 
-      for(i = 0; i < (maiorX+1); i++){
-        for(j = 0; j < (maiorY+1); j++){
+      for(i = 0; i < (maiorX+20); i++){
+        for(j = 0; j < (maiorY+20); j++){
           if (pontoTriangulo(xa, ya, xb, yb, xc, yc, i, j) == 1)
           {
               if (x == i && y == j)
